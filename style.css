@@ -594,7 +594,7 @@ section {
   }
   /*About section*/
   .about-section {
-    padding-top: 120px !important;
+    padding-top: 60px 15px !important;
   }
   .about-container {
     flex-direction: column !important; 
@@ -611,11 +611,11 @@ section {
   .about-title {
     font-size: 1.8rem !important; 
   }
-  .tos-section {
-    max-height: 80vh !important;
-  }
   .tos-grid {
     grid-template-columns: 1fr;
+  }
+  .tos-section {
+    padding: 60px 15px; 
   }
   .tos-card {
     padding: 25px;
@@ -628,6 +628,9 @@ section {
   }
   .sticker {
     width: 50px !important;
+  }
+  .feedback-section {
+    padding: 60px;
   }
   .feedback-grid {
     grid-template-columns: repeat(1, 1fr); 
