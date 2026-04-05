@@ -581,6 +581,10 @@ section {
   #check:checked~ul {
     left: 0;
   }
+  /*Carousel*/
+  .carousel:nth-child(n+4) {
+    display: none;
+  }
   /*Hero-Section*/
   .hero-content {
     width: 90%;
