@@ -354,6 +354,13 @@ section {
 .social-btn.tiktok:hover { color: #ff0050; text-shadow: 0 0 10px #00f2ea; }
 .social-btn.discord:hover { color: #5865F2; }
 .social-btn.kofi:hover { color: #ff5e5b; }
+.social-btn.spotify:hover { color: #1ED760; }
+.social-btn.vrchat:hover { color: white; }
+
+.brands-icons {
+  height: auto;
+  width: 50px;
+}
 /*Spacers*/
 .spacer {
     aspect-ratio: 960/100;
@@ -603,7 +610,7 @@ section {
     width: 90%;
   }
   .hero-content h1 {
-    font-size: 4rem;
+    font-size: 3.2rem;
     line-height: 1.1;
   }
   .hero-content p {
@@ -627,6 +634,13 @@ section {
   }
   .about-title {
     font-size: 1.8rem !important; 
+  }
+  /*Socials*/
+  .social-links {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    justify-content: center;
   }
   .tos-grid {
     grid-template-columns: 1fr;
