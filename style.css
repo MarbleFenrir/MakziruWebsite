@@ -356,6 +356,14 @@ section {
 .social-btn.kofi:hover { color: #ff5e5b; }
 .social-btn.spotify:hover { color: #1ED760; }
 .social-btn.vrchat:hover { color: white; }
+.social-btn.jinxxy:hover { background-image: url('brands-icons/jinxxy.png'); }
+
+.social-btn.jinxxy {
+  background-image: url('brands-icons/jinxxywhite.png');
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .brands-icons {
   height: auto;
